@@ -72,22 +72,7 @@ export const CarsView = `
       </section>
 
       <section id="cars" class="row justify-content-center">
-        <!-- <div class="col-10">
-          <div class="d-flex shadow">
-            <img class="car-img"
-              src="https://images.unsplash.com/photo-1561043845-2f5e09749871?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-              alt="Mazda Miata">
-            <div class="p-3">
-              <h2><i class="mdi mdi-shimmer"></i> 2004 Mazda Miata</h2>
-              <p>12/12/2000</p>
-              <h3>50000 miles</h3>
-              <h3>$20000</h3>
-              <h3>It runs</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure nam quod sit voluptatem dolorum
-                molestiae illum? Quidem incidunt voluptates sed.</p>
-            </div>
-          </div>
-        </div> -->
+      
       </section>
-    </div>
-`
+      </div>
+      `

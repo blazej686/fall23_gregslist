@@ -3,6 +3,7 @@ import { Value } from "./models/Value.js"
 import { EventEmitter } from "./utils/EventEmitter.js"
 import { isValidProp } from "./utils/IsValidProp.js"
 import { loadState } from "./utils/Store.js"
+import { House } from "./models/House.js"
 
 class ObservableAppState extends EventEmitter {
   page = ''
@@ -37,6 +38,28 @@ class ObservableAppState extends EventEmitter {
       color: '#940109',
       description: 'The fastest car in Gran Turismo 2 on Playstation'
     }),
+  ]
+
+  houses = [
+    new House({
+      year: '1974',
+      bedrooms: 3,
+      bathrooms: 2.5,
+      sqft: 1400,
+      price: 375000,
+      description: 'Newly renovated mid-century modern home',
+      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg'
+    }),
+
+    new House({
+      year: '2022',
+      bedrooms: 4,
+      bathrooms: 2.5,
+      sqft: 2130,
+      price: 400000,
+      description: 'Brand new track home',
+      imgUrl: 'https://photos.zillowstatic.com/fp/983d463e10bfa916b426c6500a2b8872-cc_ft_768.webp'
+    })
   ]
 
   // NOTE Used to load initial data
